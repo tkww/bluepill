@@ -1,9 +1,9 @@
-class Bluepill < Formula
+class TkwwBluepill < Formula
   desc "Testing tool for iOS that runs UI tests using multiple simulators"
   homepage "https://github.com/tkww/bluepill"
-  url "https://github.com/tkww/bluepill/releases/download/v5.2.2-1/Bluepill.zip"
-  sha256 "c97fc0fb60387dc416a76b323ee28ee42a4a0e0fc69ae01458978a5d13b81929"
-  head "https://github.com/tkww/bluepill.git", :branch => "master"
+  url "https://github.com/tkww/bluepill.git",
+    :tag => "v5.2.2-1", :revision => "d6fe56545c4172e9c58c5511aac46ad2857df1f1"
+  head "https://github.com/tkww/bluepill.git"
 
   depends_on :xcode => ["11.2", :build]
 
